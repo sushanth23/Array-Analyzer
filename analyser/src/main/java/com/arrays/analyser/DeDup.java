@@ -96,7 +96,7 @@ public class DeDup
 				}
 			}
 			uniqueNumberArr = new int[unqNumberSet.size()];
-			Iterator itr=unqNumberSet.iterator();
+			Iterator<Integer> itr=unqNumberSet.iterator();
 			while(itr.hasNext()){
 				uniqueNumberArr[arrIndex]=(Integer) itr.next();
 				arrIndex++;
